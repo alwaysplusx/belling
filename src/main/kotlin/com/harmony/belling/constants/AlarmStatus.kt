@@ -10,7 +10,9 @@ enum class AlarmStatus(private val text: String) : Option {
 
     RESOLVED("已处理"),
 
-    FINISHED("已完结");
+    FINISHED("已完结"),
+
+    IGNORE("忽略");
 
     override fun getText(): String = text
 

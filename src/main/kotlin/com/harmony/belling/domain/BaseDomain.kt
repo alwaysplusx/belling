@@ -4,7 +4,6 @@ import com.harmony.bitable.BitfieldType
 import com.harmony.bitable.annotations.BitId
 import com.harmony.bitable.annotations.Bitfield
 import com.lark.oapi.service.bitable.v1.model.Person
-import org.springframework.data.annotation.Id
 import java.time.LocalDateTime
 
 /**
@@ -12,7 +11,6 @@ import java.time.LocalDateTime
  */
 abstract class BaseDomain {
 
-    @Id
     @BitId
     var id: String? = null
 

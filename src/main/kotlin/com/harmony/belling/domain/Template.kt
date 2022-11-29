@@ -8,7 +8,7 @@ import com.lark.oapi.service.bitable.v1.model.Url
  * @author wuxin
  */
 @Bitable("消息模板")
-class MessageTemplate : BaseDomain() {
+class Template : BaseDomain() {
 
     @Bitfield("模板名称")
     var name: String? = null
